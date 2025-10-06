@@ -56,7 +56,7 @@ export function Navbar({ className }: NavbarProps) {
   }
 
   return (
-    <nav className={`border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 ${className}`}>
+    <nav className={`border-b bg-success ${className}`}>
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
